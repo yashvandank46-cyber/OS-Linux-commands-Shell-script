@@ -42,6 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+
 <img width="650" height="162" alt="image" src="https://github.com/user-attachments/assets/c6414b61-834e-4835-b208-bf8c6de1ad73" />
 
 
@@ -114,6 +115,7 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+
 <img width="582" height="92" alt="image" src="https://github.com/user-attachments/assets/cef89d71-2c77-4f0d-bf52-821ea22e000c" />
 
 
