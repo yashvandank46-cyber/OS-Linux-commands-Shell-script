@@ -1001,6 +1001,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="738" height="135" alt="image" src="https://github.com/user-attachments/assets/a4cfefaa-fece-404e-8bd4-391fe39a0f60" />
 
 $ chmod 755 forbreak.sh
  
@@ -1020,14 +1021,8 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
  
-$ chmod 755 forcontinue.sh
- 
-$ ./forcontinue.sh 
-## OUTPUT
- 
-cat exread.sh 
+cat > exread.sh 
 ```bash
 #!/bin/bash
 # testing the read command
@@ -1040,9 +1035,10 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="636" height="114" alt="image" src="https://github.com/user-attachments/assets/5a6c15e3-9d98-4bd8-8731-3682636d4ba9" />
 
 
- cat exread1.sh
+ cat > exread1.sh
 ```bash
 #!/bin/bash
 # testing the read command
@@ -1055,9 +1051,10 @@ $ chmod 755 exread1.sh
 
 
 
+
 $ ./exread1.sh 
  
-cat funcex.sh
+cat > funcex.sh
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -1072,14 +1069,16 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+./funcex.sh 
 ## OUTPUT
- ./funcex.sh 
+ <img width="530" height="77" alt="image" src="https://github.com/user-attachments/assets/b9202d94-2ada-488a-8c69-d725e29381f8" />
+
 
  
- ./funcex.sh 1 2
+
 
  
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1089,10 +1088,11 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+<img width="562" height="128" alt="image" src="https://github.com/user-attachments/assets/6659187e-c1da-444c-ae84-2a9a2665e60d" />
  
- cat argshift1.sh
+ cat > argshift1.sh
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -1105,11 +1105,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
-## OUTPUT
+$ chmod 777 argshift1.sh
 $ ./argshift.sh 1 2 3
+## OUTPUT
+<img width="419" height="130" alt="image" src="https://github.com/user-attachments/assets/77b675b1-0113-41e2-a7e4-fd7a17d3fa7a" />
+
  
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1119,8 +1121,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
+## OUTPUT
+<img width="585" height="400" alt="image" src="https://github.com/user-attachments/assets/8a2aaedf-1fb5-4d3d-bac6-4bb48dca963c" />
+
  
  
 cat > nc.awk
@@ -1152,7 +1156,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="605" height="389" alt="image" src="https://github.com/user-attachments/assets/9d674c3a-de6a-4fcf-bdf3-15c0f142bab1" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1179,6 +1184,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="539" height="121" alt="image" src="https://github.com/user-attachments/assets/65d80ea8-1906-4631-8212-870c70b22eb6" />
 
 
 # RESULT:
